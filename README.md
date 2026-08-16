@@ -1,3 +1,13 @@
+
+## Implementation Summary
+
+This project implements two Flask routes for managing sensitive contractor and customer data:
+
+- `GET /contract/<id>` — Returns the contract's information with a 200 response if found, or 404 if not found.
+- `GET /customer/<customer_name>` — Returns a 204 response with no data if the customer exists (protecting sensitive info), or 404 if not found.
+
+---
+
 # Lab: Contractors Lab
 
 ---
